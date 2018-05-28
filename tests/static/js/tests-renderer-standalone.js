@@ -9,11 +9,11 @@
         gradeNames: ["gpii.handlebars.renderer.standalone"],
         templates: {
             layouts: {
-                main: "{{body}}"
+                main: "This is content coming from the layout. {{body}}"
             },
             pages: {
                 md:        "{{{md .}}}",
-                partial:   "{{>includedPartial}}",
+                partial:   "This is content coming from the page. {{>includedPartial}}",
                 jsonify:   "{{{jsonify . space=0}}}",
                 equals:    "{{#equals \"good\" .}}equals{{else}}not equals{{/equals}}"
             },

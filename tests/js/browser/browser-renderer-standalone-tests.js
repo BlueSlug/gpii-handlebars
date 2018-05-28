@@ -52,7 +52,7 @@ fluid.defaults("gpii.tests.handlebars.browser.renderer.standalone.caseHolder", {
                     {
                         event:    "{testEnvironment}.webdriver.events.onExecuteScriptComplete",
                         listener: "jqUnit.assertEquals",
-                        args:     ["We should have received partial content...", "This is content coming from the partial.", "{arguments}.0"]
+                        args:     ["We should have received partial content...", "This is content coming from the layout. This is content coming from the page. This is content coming from the partial.", "{arguments}.0"]
                     }
                 ]
             },

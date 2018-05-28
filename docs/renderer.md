@@ -81,9 +81,9 @@ fluid.defaults("my.renderer.component", {
             main: ">{{body}}<"
         },
         pages: {
-            myPage: "){{>myPartial}(<"
+            myPage: "){{>myPartial}}("
         },
-        {
+        partials: {
             myPartial: "]{{myVariable}}["
         }
     }
